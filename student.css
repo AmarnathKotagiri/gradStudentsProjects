@@ -1,0 +1,142 @@
+body{
+	margin : 0 ;
+	padding : 0 ;
+	background : url(mesh_background.JPG);
+	background-size : cover ;
+	background-position : top ;
+	font-family : sans-serif;
+}
+
+.loginbox1{
+	float: left;
+	width: 350px;
+	height: 350px;
+	background:#000;
+	opacity: 0.8;
+	color:orange;
+	top: 20%;
+	left: 20%;
+	position: absolute;
+	transform: translate(-50%, +8%);
+	box-sizing: border-box;
+	padding : 90px 50px;
+}
+.loginbox2{
+	float: center;
+	width: 350px;
+	height: 350px;
+	background:#000;
+	opacity: 0.8;
+	color:orange;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding : 90px 50px;
+}
+.loginbox3{
+	float: right;
+	width: 350px;
+	height: 350px;
+	background:#000;
+	opacity: 0.8;
+	color:orange;
+	top: 80%;
+	left: 80%;
+	position: absolute;
+	transform: translate(-50%, -107%);
+	box-sizing: border-box;
+	padding : 90px 50px;
+}
+.submitbox{
+	float: right;
+	top: 80%;
+	left: 80%;
+	position: absolute;
+	transform: translate(-50%, -1%);
+	box-sizing: border-box;
+	padding : 90px 50px;
+}
+
+.row: after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+h1 {
+	margin : 0;
+	padding : 0 0 20px;
+	text-align:center;
+	font-size:22px;
+	color: white;
+	}
+	 .loginbox  p
+	 {
+	 	margin:0;
+	 	padding:0;
+	 	font-weight: italic;
+
+	 }
+
+	 .loginbox1 input[type="text"]
+	 {
+	 	border:none;
+	 	border-bottom: 1px solid #fff;
+	 	background: transparent;
+	 	outline: none;
+	 	height: 40px;
+	 	color: #fff;
+	 	font-size: 16px ; 
+	 }
+	 .loginbox2 input[type="text"]
+	 {
+	 	border:none;
+	 	border-bottom: 1px solid #fff;
+	 	background: transparent;
+	 	outline: none;
+	 	height: 40px;
+	 	color: #fff;
+	 	font-size: 16px ; 
+	 }
+	 .loginbox3 input[type="text"]
+	 {
+	 	border:none;
+	 	border-bottom: 1px solid #fff;
+	 	background: transparent;
+	 	outline: none;
+	 	height: 40px;
+	 	color: #fff;
+	 	font-size: 16px ; 
+	 }
+	 .submitbox input [type="submit"]
+	 {
+	 	border: none;
+	 	outline: none;
+	 	height: 40px;
+	 	background: #fb2525;
+	 	color: #fff;
+	 	font-size: 18px;
+	 	border-radius: 20px;
+	 }
+.submitbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #FFFFFF;
+	color:#000;
+}
+.submitbox a{
+	text-decoration: none;
+	font-size:12px;
+	line-height: 20px;
+	color :#FFA500;
+
+}
+.submitbox a{
+
+	color :#FFFFFF
+ ;
+
+
+}
